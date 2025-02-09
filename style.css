@@ -2,8 +2,9 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: auto;
+    overflow-x: hidden;
     font-family: "Rubik", serif;
+
 }
 
 .home{
@@ -53,9 +54,18 @@ nav {
 .menu li a {
     text-decoration: none;
     color:white;
-    font-size: 14px;
+    font-size: 16px;
     transition: color 0.3s;
     font-weight: lighter;
+}
+.menu li a:hover{
+    color: white;
+}
+.menu li a:visited{
+    color: white;
+}
+.menu li a:active{
+    color: white;
 }
 
 /* Sign-Up Button */
@@ -114,7 +124,7 @@ nav {
     transition: all 0.35s ease;
     font-weight: lighter;
     display: inline-flex;
-    align-items: center;
+    align-items:center;
     gap: 5px;
 }
 
@@ -131,41 +141,54 @@ nav {
 }
 
 .container_1 {
-    display: flex;
     justify-content: center;
+    display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 50px;
-    background: #e5e5e5;
+    background: #e9e9e9;
+    height: 80vh;
+    width: 100%;
+    flex-direction: column;
+}
+.container_col{
+    width: 860px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -160px;
+    margin-bottom: 70px;
+    
 }
 
 .col1, .col2, .col3 {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.1);
-    text-align: center;
-    width: 280px;
+    background-color: white;
+    border-radius: 0px;
+    padding: 25px;
+    width: 220px;
+    z-index: 8;
 }
 
-i {
-    font-size: 30px;
-    color: #4a6df3;
-    margin-bottom: 10px;
+ .container_col i {
+        font-size: 40px;
+        color: #6078ea;
+        margin-bottom: 30px;
+        padding: 20px 20px 0px 20px;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 1.266em;
     color: #333;
+    font-weight:lighter;
 }
 
 p {
     font-size: 14px;
     color: #666;
+    font-weight:lighter;
+    text-align: center;
 }
 
+
 button {
-    margin-top: 460px;
     padding: 20px 110px;
     font-size: 15px;
     font-weight: bolder;
@@ -174,10 +197,305 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: absolute;
+    align-items: center;
 }
+
 
 button:hover {
     background-color:#17ead9;
 }
 
+
+.container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.Textoestadistica1 {
+    width: 100%;
+    color: #333; 
+    line-height: 1.5;
+    padding-right: 10px; 
+
+}
+
+.Textoestadistica1 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 50px 0px 0px 155px;
+    color: #4d4c4c; /* Texto negro */
+}
+
+.Textoestadistica1 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-uber img {
+    width: 40px; 
+    margin: 0px 0px 0px 120px;
+}
+
+
+.persona_1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-Estadistica1 img {
+    width: 730px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+
+.imagenTexto1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.img-Estadistica1 {
+    display: flex;
+    justify-content: flex-end; 
+    flex: 1;
+}
+
+.container_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0px 120px 10px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.Textoestadistica2 {
+    width: 100%;
+    color: #333;
+    line-height: 1.5;
+    padding: 0px; 
+
+}
+
+.Textoestadistica2 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 30px 135px 0px 35px;
+    color: #4d4c4c; 
+}
+
+.Textoestadistica2 p {
+    margin: 10px 200px 10px 40px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-facebook img {
+    width: 70px;
+    margin: 0px 100px 0px 0px;
+}
+
+.person_2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.imgEstadistica2 img {
+    width: 730px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.imagenTexto2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.container_4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+
+.Textoestadistica3 {
+    width: 100%;
+    color: #333; 
+    line-height: 1.5;
+    padding-right: 10px; 
+}
+
+.Textoestadistica3 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 0px 15px 0px 155px;
+    color: #4d4c4c; 
+}
+
+.Textoestadistica3 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-twiter img {
+    width: 20px;
+    margin: 0px 0px 0px 120px;
+}
+
+
+.person_3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.Img-estadistica3 img {
+    width: 730px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+
+.imagenTexto3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.Img-estadistica3 {
+    display: flex;
+    justify-content: flex-end; 
+    flex:1;
+}
+
+
+
+
+/* Estilos generales */
+.container_5 {
+    background-color: #6078ea;
+    color: white;
+    text-align: center;
+    padding: 72px 0px 126px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    
+
+}
+
+.texto h1 {
+    font-size:2.074em;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+
+.texto p {
+    font-size: 1.125em;
+    line-height: 1.65;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    opacity: 0.8;
+    color: white;
+    
+}
+
+/* Contenedor de información */
+.info-cont {
+    display: grid;
+    flex-wrap: wrap;
+    font-weight: lighter;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding: 90px 200px 90px 200px;
+    color: #6078ea;
+    gap: 10px;
+}
+
+
+
+.col {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+
+.col h3 {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.col h3 i {
+    margin-right: 10px;
+    font-size: 1.4em;
+    color: white;
+}
+
+.col p {
+    font-size: 16px;
+    opacity: 0.9;
+    color: white;
+    text-align: justify;
+}
+
+/* Colores de los íconos */
+.col:nth-child(1) h3 i { color: #17EAD9; } 
+.col:nth-child(2) h3 i { color: #17EAD9; } 
+.col:nth-child(3) h3 i { color: #17EAD9; } 
+.col:nth-child(4) h3 i { color: #17EAD9; } 
+.col:nth-child(5) h3 i { color: #17EAD9; } 
+.col:nth-child(6) h3 i { color: #17EAD9; } 
+
+@media (max-width: 768px) {
+    .info-cont {
+        flex-direction: column;
+        align-items: center;
+    }
+}
