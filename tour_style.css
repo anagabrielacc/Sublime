@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Rubik", serif;
+
+}
+
+.home{
+    background: linear-gradient(90deg, #17ead9, #6078ea);
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 16px; 
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: absolute; 
+    left: 60px; 
+    top: 30px;
+}
+
+.logo span {
+    color: #fff;
+}
+
+/* Navegación menú */
+nav {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color:white;
+    font-size: 16px;
+    transition: color 0.3s;
+    font-weight: lighter;
+}
+.menu li a:hover{
+    color: white;
+}
+.menu li a:visited{
+    color: white;
+}
+.menu li a:active{
+    color: white;
+}
+
+/* Sign-Up Button */
+.singUp a {
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 1px solid #ecedee;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    color: #6078ea;
+}
+
+.singUp a:hover {
+    background-color: white;
+    color: #6078ea;
+}
+
+/* Banner Text */
+.Textobanner {
+    text-align: center;
+}
+
+.Textobanner h1 {
+    font-size: 53px;
+    line-height: 1.15;
+    font-weight: 300;
+    margin-top: 0;
+    align-items: center;
+}
+
+.Textobanner h2 {
+    font-size: 19px;
+    font-weight: 300;
+    color: #ecedee;
+    line-height: 1.55;
+}
+
+.Textobanner h2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.Textobanner h2 a:hover {
+    color: #ecedee;
+}
+
+.Textobanner.video {
+    margin-top: 20px;
+}
+
+.Textobanner .video a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+    transition: all 0.35s ease;
+    font-weight: lighter;
+    display: inline-flex;
+    align-items:center;
+    gap: 5px;
+}
+
+.Textobanner .video a i {
+    transition: transform 0.35s ease;
+}
+
+.Textobanner.video a:hover {
+    transform: translateX(-5px);
+}
+
+.Textobanner .video a:hover i {
+    transform: translateX(10px); 
+}
+
+.container_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.Textoestadistica1 {
+    width: 100%;
+    color: #333; 
+    line-height: 1.5;
+    padding-right: 10px; 
+
+}
+
+.Textoestadistica1 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 50px 0px 0px 155px;
+    color: #4d4c4c; /* Texto negro */
+}
+
+.Textoestadistica1 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-uber img {
+    width: 40px; 
+    margin: 0px 0px 0px 120px;
+}
+
+
+.persona_1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.img-Estadistica1 img {
+    width: 730px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+
+.imagenTexto1 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.img-Estadistica1 {
+    display: flex;
+    justify-content: flex-end; 
+    flex: 1;
+}
+
+.container_3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0px 120px 10px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+
+.Textoestadistica2 {
+    width: 100%;
+    color: #333;
+    line-height: 1.5;
+    padding: 0px; 
+
+}
+
+.Textoestadistica2 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 30px 135px 0px 35px;
+    color: #4d4c4c; 
+}
+
+.Textoestadistica2 p {
+    margin: 10px 200px 10px 40px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-facebook img {
+    width: 70px;
+    margin: 0px 100px 0px 0px;
+}
+
+.person_2 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.imgEstadistica2 img {
+    width: 730px; 
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.imagenTexto2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.container_4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px 50px 40px;
+    background-color: #fff; 
+    max-width: 100%; 
+    margin: 0 auto; 
+}
+
+
+.Textoestadistica3 {
+    width: 100%;
+    color: #333; 
+    line-height: 1.5;
+    padding-right: 10px; 
+}
+
+.Textoestadistica3 h2 {
+    font-size: 27px;
+    font-weight: lighter;
+    margin: 0px 15px 0px 155px;
+    color: #4d4c4c; 
+}
+
+.Textoestadistica3 p {
+    margin:10px 20px 20px 160px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: #7e8890;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+
+.logo-twiter img {
+    width: 20px;
+    margin: 0px 0px 0px 120px;
+}
+
+
+.person_3 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+
+.Img-estadistica3 img {
+    width: 730px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 30px;
+}
+
+
+.imagenTexto3 {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.Img-estadistica3 {
+    display: flex;
+    justify-content: flex-end; 
+    flex:1;
+}
