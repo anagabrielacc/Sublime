@@ -6,16 +6,15 @@
     <title>Sublime</title>
     <script src="https://kit.fontawesome.com/21afb90681.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="log-in.css">
+    <link rel="stylesheet" href="singup-style.css">
 </head>
-
 <header class="banner">
     <div class="container-fluid">
         <a href="home.html" class="logo">Sublime.</a>
         <nav>
             <ul class="Menu">
                 <li>
-                    <a href="home.html">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="blog.html">Blog</a>
@@ -37,20 +36,28 @@
     </header>
     <main class="main">
         <div class="login-box">
-        <h2>Log in</h2>
+        <h2>Sing up</h2>
         <form>
             <div class="input-group">
             <label for="username">Username</label>
             <input type="text" id="username" placeholder="">
             </div>
             <div class="input-group">
+            <label for="password">Email Address</label>
+            <input type="password" id="password" placeholder="">
+            </div>
+            <div class="input-group">
             <label for="password">Password</label>
             <input type="password" id="password" placeholder="">
             </div>
-            <button type="submit" class="btn-login">Log in</button>
+            <div class="input-group">
+            <label for="password">Re-type Password</label>
+            <input type="password" id="password" placeholder="">
+            </div>
+            <button type="submit" class="btn-login">Sign up</button>
         </form>
         <div class="extra-links">
-            <p>Don't have an account? <a href="#">Sign Up for free</a></p>
+            <p><a href="#">Already have an account?</a><a href="#"> Login Here</a></p>
             <p><a href="#">Forgot password?</a></p>
         </div>
         </div>
