@@ -564,3 +564,112 @@ button:hover {
 }
 
 
+.footer {
+    background: #f8f9fa;
+    padding: 50px 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.footer-container {
+    background-color: #ecedee;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 5em 2em 2em;
+    max-width: 100%;
+    text-align: center;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* About Section */
+.footer-section p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.learn-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Blog Posts */
+.blog-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.blog-post img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.blog-post h4 {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.blog-post p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Contact Section */
+.contact p {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.contact i {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-bottom p {
+    font-size: 12px;
+    color: #666;
+}
+
+.footer-bottom a {
+    color: #4f46e5;
+    text-decoration: none;
+}
